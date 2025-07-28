@@ -27,7 +27,7 @@
           <div class="hero-text">
             <h1>Felix Grabler</h1>
             <h2>Software Developer & Technology Enthusiast</h2>
-            <p>TODO :)</p>
+            <p>Computer Science student at TU Graz. I'm passionate about technology and software development, and I'm excited to explore new opportunities in my future career.</p>
             <div class="hero-buttons">
               <button class="btn btn-primary" @click="activeSection = 'contact'">Get In Touch</button>
               <button class="btn btn-secondary" @click="activeSection = 'projects'">View Projects</button>
@@ -99,6 +99,7 @@
                 <p>
                   Completed the curriculum with a specialization in IT Security in an "English as Working Language" class. 
                   Acquired skills in programming (C, Java), operating systems, databases (Oracle-oriented), networking, and various modern technologies.
+                  Served as Schulsprecher (student representative), representing the student body and facilitating communication between students and administration.
                 </p>
               </div>
             </div>
@@ -112,24 +113,50 @@
           <h2>Experience</h2>
           <div class="experience-grid">
             <div class="experience-item">
-              <h3>Software Developer</h3>
-              <h4>EET - Efficient Energy Technology</h4>
-              <p class="experience-date">2022 - 2023</p>
-              <ul>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                <li>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-                <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</li>
-              </ul>
+              <img src="/kaindorfgames.svg" alt="Kaindorf Games Logo" class="company-logo">
+              <div class="experience-content">
+                <h3>Esports Tournament Organizer & Developer</h3>
+                <h4>Kaindorf Games</h4>
+                <p class="experience-date">Dec 2020 - present</p>
+                <p class="experience-description">
+                  In a team of 7, we organize esports tournaments at schools, at the VulkanLAN or at the ButtonFestival. 
+                    We also program our own tournament management platform 
+                    [<strong><a href="https://kaindorf-games.at" target="_blank" style="text-decoration: underline; color: inherit; cursor: pointer;">kaindorf-games.at</a></strong>].
+                </p>
+              </div>
             </div>
             <div class="experience-item">
-              <h3>TODO</h3>
-              <h4>(Placeholder)</h4>
-              <p class="experience-date">2023 - 2024</p>
-              <ul>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                <li>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-                <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</li>
-              </ul>
+              <img src="/eet.png" alt="EET Logo" class="company-logo">
+              <div class="experience-content">
+                <h3>Software Developer</h3>
+                <h4>EET - Efficient Energy Technology</h4>
+                <p class="experience-date">May 2023 - July 2024</p>
+                <p class="experience-description">
+                  Worked with <strong>Python</strong>, <strong>Docker</strong>, <strong>Vue.js</strong>, data processing, and automation on <strong>Linux</strong> systems using <strong>Scrum</strong> methodologies.
+                </p>
+              </div>
+            </div>
+            <div class="experience-item">
+              <img src="/roteskreuz.jpg" alt="Red Cross Logo" class="company-logo">
+              <div class="experience-content">
+                <h3>Ambulance Service (Zivildienst)</h3>
+                <h4>Österreichisches Rotes Kreuz</h4>
+                <p class="experience-date">Aug 2022 - Apr 2023</p>
+                <p class="experience-description">
+                  Provided emergency medical services. In addition to that, I was able to help my department with my programming skills in various tasks/projects.
+                </p>
+              </div>
+            </div>
+            <div class="experience-item">
+              <img src="/ssi_schaefer.png" alt="SSI Schäfer Logo" class="company-logo">
+              <div class="experience-content">
+                <h3>Software Developer (Diplomarbeit Internship)</h3>
+                <h4>SSI Schäfer IT Solutions</h4>
+                <p class="experience-date">May 2021 - Mar 2022</p>
+                <p class="experience-description">
+                  Programmed in <strong>Flutter</strong> and <strong>Dart</strong> using <strong>Android Studio</strong>, and did project management with <strong>Jira</strong>.
+                </p>
+              </div>
             </div>
           </div>
         </div>

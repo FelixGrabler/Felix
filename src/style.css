@@ -275,6 +275,21 @@ body {
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.company-logo {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.experience-content {
+  margin-right: 100px; /* Make space for the logo */
 }
 
 .experience-item h3 {
@@ -291,6 +306,17 @@ body {
   color: #666;
   font-style: italic;
   margin-bottom: 1rem;
+}
+
+.experience-description {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.experience-description strong {
+  color: #667eea;
+  font-weight: 600;
 }
 
 .experience-item ul {
