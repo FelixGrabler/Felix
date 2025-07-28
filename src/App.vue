@@ -22,7 +22,7 @@
       <section id="hero" class="hero">
         <div class="hero-content">
           <div class="hero-image">
-            <img src="/placeholder-profile.jpg" alt="Felix Grabler" class="profile-img">
+            <img src="/Felix.jpg" alt="Felix Grabler" class="profile-img">
           </div>
           <div class="hero-text">
             <h1>Felix Grabler</h1>

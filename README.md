@@ -71,7 +71,7 @@ The application will be available at `http://localhost:3001`
 Felix/
 ├── public/                 # Static assets
 │   ├── favicon.svg
-│   └── placeholder-profile.jpg
+│   └── Felix.jpg
 ├── src/                    # Source code
 │   ├── App.vue            # Main Vue component
 │   ├── main.js            # Application entry point
