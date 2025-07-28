@@ -207,16 +207,16 @@
             <div class="contact-info">
               <h3>Contact Information</h3>
               <div class="contact-item">
-                <strong>Email:</strong> felix@grabler.me
+                <strong>Email:</strong> <a href="mailto:felix.grabler02@gmail.com">felix.grabler02@gmail.com</a>
               </div>
               <div class="contact-item">
-                <strong>Location:</strong> Your Location (Placeholder)
+                <strong>Location:</strong> Graz, Austria
               </div>
               <div class="contact-item">
-                <strong>LinkedIn:</strong> https://www.linkedin.com/in/felix-grabler-549304202/
+                <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/felix-grabler-549304202/" target="_blank">https://www.linkedin.com/in/felix-grabler-549304202/</a>
               </div>
               <div class="contact-item">
-                <strong>GitHub:</strong> github.com/FelixGrabler
+                <strong>GitHub:</strong> <a href="https://github.com/FelixGrabler" target="_blank">https://github.com/FelixGrabler</a>
               </div>
             </div>
             <div class="contact-form">
