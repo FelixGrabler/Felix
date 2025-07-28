@@ -10,7 +10,7 @@
           <li><a href="#about" @click="activeSection = 'about'">About</a></li>
           <li><a href="#education" @click="activeSection = 'education'">Education</a></li>
           <li><a href="#experience" @click="activeSection = 'experience'">Experience</a></li>
-          <li><a href="#projects" @click="activeSection = 'projects'">Projects</a></li>
+          <li><a href="#skills" @click="activeSection = 'skills'">Skills</a></li>
           <li><a href="#contact" @click="activeSection = 'contact'">Contact</a></li>
         </ul>
       </nav>
@@ -30,7 +30,7 @@
             <p>Computer Science student at TU Graz. I'm passionate about technology and software development, and I'm excited to explore new opportunities in my future career.</p>
             <div class="hero-buttons">
               <button class="btn btn-primary" @click="activeSection = 'contact'">Get In Touch</button>
-              <button class="btn btn-secondary" @click="activeSection = 'projects'">View Projects</button>
+              <button class="btn btn-secondary" @click="activeSection = 'skills'">View Skills</button>
             </div>
           </div>
         </div>
@@ -43,23 +43,13 @@
           <div class="about-content">
             <div class="about-text">
               <p>
-                Hello! I'm Felix Grabler, a passionate software developer with some text here that needs to be reworked.
+                Hello! I'm Felix Grabler, a passionate software developer currently studying Computer Science at TU Graz.
               </p>
               <p>
                 My journey in technology started early, and I've been continuously learning and growing 
-                in this ever-evolving field.
+                in this ever-evolving field. I enjoy working on diverse projects ranging from web development 
+                to system programming and organizing esports events.
               </p>
-            </div>
-            <div class="about-skills">
-              <h3>Technical Skills</h3>
-              <div class="skills-grid">
-                <div class="skill-item">C/C++</div>
-                <div class="skill-item">Java</div>
-                <div class="skill-item">Python</div>
-                <div class="skill-item">Vue.js</div>
-                <div class="skill-item">Docker</div>
-                <div class="skill-item">Kubernetes</div>
-              </div>
             </div>
           </div>
         </div>
@@ -162,36 +152,47 @@
         </div>
       </section>
 
-      <!-- Projects Section -->
-      <section id="projects" class="section" :class="{ active: activeSection === 'projects' }">
+      <!-- Skills Section -->
+      <section id="skills" class="section" :class="{ active: activeSection === 'skills' }">
         <div class="container">
-          <h2>Projects</h2>
-          <div class="projects-grid">
-            <div class="project-card">
-              <h3>Grabler.me Hub</h3>
-              <p>A comprehensive web platform with multiple services and Docker integration.</p>
-              <div class="project-tech">
-                <span class="tech-tag">Vue.js</span>
-                <span class="tech-tag">Docker</span>
-                <span class="tech-tag">Nginx</span>
+          <h2>Skills</h2>
+          <div class="skills-categories">
+            <div class="skill-category">
+              <h3>Programming Languages</h3>
+              <div class="skills-grid">
+                <div class="skill-item">C</div>
+                <div class="skill-item">C++</div>
+                <div class="skill-item">Java</div>
+                <div class="skill-item">Python</div>
+                <div class="skill-item">JavaScript</div>
+                <div class="skill-item">Vue.js</div>
               </div>
             </div>
-            <div class="project-card">
-              <h3>Namo Application</h3>
-              <p>A full-stack application with backend and frontend components.</p>
-              <div class="project-tech">
-                <span class="tech-tag">Python</span>
-                <span class="tech-tag">Vue.js</span>
-                <span class="tech-tag">PostgreSQL</span>
+            
+            <div class="skill-category">
+              <h3>Technologies & Tools</h3>
+              <div class="skills-grid">
+                <div class="skill-item">Docker</div>
+                <div class="skill-item">Kubernetes</div>
+                <div class="skill-item">Linux</div>
+                <div class="skill-item">Kernel Level Programming</div>
               </div>
             </div>
-            <div class="project-card">
-              <h3>Personal Website</h3>
-              <p>This very website built with Vue.js and modern web technologies.</p>
-              <div class="project-tech">
-                <span class="tech-tag">Vue.js</span>
-                <span class="tech-tag">Vite</span>
-                <span class="tech-tag">CSS3</span>
+            
+            <div class="skill-category">
+              <h3>Networking & Databases</h3>
+              <div class="skills-grid">
+                <div class="skill-item">Network Technology (CCNA Certified)</div>
+                <div class="skill-item">Databases (SQL, PL/SQL, NoSQL)</div>
+              </div>
+            </div>
+            
+            <div class="skill-category">
+              <h3>Languages</h3>
+              <div class="skills-grid">
+                <div class="skill-item">German (mother tongue)</div>
+                <div class="skill-item">English (CEA C1 Certificate)</div>
+                <div class="skill-item">Austrian Sign Language (A1)</div>
               </div>
             </div>
           </div>
