@@ -46,8 +46,8 @@
                 Hello! I'm Felix Grabler, a passionate software developer currently studying Computer Science at TU Graz.
               </p>
               <p>
-                My journey in technology started early, and I've been continuously learning and growing 
-                in this ever-evolving field. I enjoy working on diverse projects ranging from web development 
+                My journey in technology started early, and I've been continuously learning and growing
+                in this ever-evolving field. I enjoy working on diverse projects ranging from web development
                 to system programming and organizing esports events.
               </p>
             </div>
@@ -76,7 +76,7 @@
                 <h3>TU Graz</h3>
                 <h4>Bachelor's Degree in Computer Science</h4>
                 <p>
-                  Currently pursuing bachelor's degree with focus on software engineering, operating systems, 
+                  Currently pursuing bachelor's degree with focus on software engineering, operating systems,
                   algorithms, AI and machine learning, and advanced mathematics. Gaining experience in various programming languages and development methodologies.
                 </p>
               </div>
@@ -87,7 +87,7 @@
                 <h3>HTBLA Kaindorf</h3>
                 <h4>Matura in Computer Science</h4>
                 <p>
-                  Completed the curriculum with a specialization in IT Security in an "English as Working Language" class. 
+                  Completed the curriculum with a specialization in IT Security in an "English as Working Language" class.
                   Acquired skills in programming (C, Java), operating systems, databases (Oracle-oriented), networking, and various modern technologies.
                   Served as Schulsprecher (student representative), representing the student body and facilitating communication between students and administration.
                 </p>
@@ -109,8 +109,8 @@
                 <h4>Kaindorf Games</h4>
                 <p class="experience-date">Dec 2020 - present</p>
                 <p class="experience-description">
-                  In a team of 7, we organize esports tournaments at schools, at the VulkanLAN or at the ButtonFestival. 
-                    We also program our own tournament management platform 
+                  In a team of 7, we organize esports tournaments at schools, at the VulkanLAN or at the ButtonFestival.
+                    We also program our own tournament management platform
                     [<strong><a href="https://kaindorf-games.at" target="_blank" style="text-decoration: underline; color: inherit; cursor: pointer;">kaindorf-games.at</a></strong>].
                 </p>
               </div>
@@ -168,7 +168,7 @@
                 <div class="skill-item">Vue.js</div>
               </div>
             </div>
-            
+
             <div class="skill-category">
               <h3>Technologies & Tools</h3>
               <div class="skills-grid">
@@ -178,7 +178,7 @@
                 <div class="skill-item">Kernel Level Programming</div>
               </div>
             </div>
-            
+
             <div class="skill-category">
               <h3>Networking & Databases</h3>
               <div class="skills-grid">
@@ -186,7 +186,7 @@
                 <div class="skill-item">Databases (SQL, PL/SQL, NoSQL)</div>
               </div>
             </div>
-            
+
             <div class="skill-category">
               <h3>Languages</h3>
               <div class="skills-grid">
